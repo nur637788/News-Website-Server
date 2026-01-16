@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5174",
-    "https://news-website-client-inky.vercel.app/"
+    "https://news-website-client-inky.vercel.app"
   ],
   credentials: true
 }));
