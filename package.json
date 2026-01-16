@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nur637788/News-Website-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nur637788/News-Website-Server/issues"
+  },
+  "homepage": "https://github.com/nur637788/News-Website-Server#readme"
 }
