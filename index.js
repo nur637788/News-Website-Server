@@ -32,6 +32,14 @@ app.use("/api/newsletter", newsletterRoutes);
 const contactRoutes = require("./routes/contact.routes");
 app.use("/api/contact", contactRoutes);
 
+// newsApiRoutes
+const newsRoutes = require("./routes/news.routes");
+app.use("/api/news", newsRoutes);
+
+// dashboard Routes
+const dashboardRoutes = require("./routes/dashboard.routes");
+app.use("/api/dashboard", dashboardRoutes);
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
